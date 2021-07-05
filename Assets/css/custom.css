@@ -1,0 +1,176 @@
+body {
+    font-family: Segoe UI;
+    user-select: none;
+    cursor: default;
+}
+
+.navbar-default {
+    height: 60px;
+}
+
+#siteBrand {
+    color: black;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#mccilogo {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.container-fluid {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.events,
+.eventTitle,
+.eventFeeValues {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+.eventFeeValues {
+    text-align: center;
+}
+
+#eventList,
+#attendeeList {
+    text-align: center;
+    text-decoration: none;
+}
+
+.eventName {
+    color: #20A5E0;
+    font-size: 20px;
+    text-decoration: none;
+    transition: font-size 0.1s;
+}
+
+.eventName:hover {
+    color: #20A5E0;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+th {
+    font-size: 20px;
+    text-align: center;
+}
+
+.edit-box {
+    text-align: center;
+    border-radius: 20px;
+    max-height: 100px;
+    max-width: 200px;
+}
+
+.edit-fee,
+.edit-box {
+    display: none;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+tr {
+    transition: background-color 0.2s;
+}
+
+tr:hover:not(.tableHeader):not(.tr-selected) {
+    background-color: #EEEEEE;
+}
+
+.tr-selected {
+    background-color: #73E64C;
+}
+
+td {
+    transition: text-shadow 0.5s;
+}
+
+td:hover {
+    cursor: pointer;
+    text-shadow: 0px 5px 20px gray;
+}
+
+.addData {
+    text-align: center;
+    display: block;
+    color: #AAAAAA;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    /*transition: font-size 0.1s, color 0.1s, line-height 0.1s;*/
+}
+
+
+/*.newEvent:hover { 
+    font-size: 15px;
+    color: black;
+}*/
+
+.position {
+    font-weight: bold;
+}
+
+hr {
+    /*border-color: gray;*/
+    width: 50%;
+}
+
+.noData {
+    color: #CCCCCC;
+}
+
+.eventFormDesc {
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.modal-content {
+    width: 300px;
+    margin: auto;
+}
+
+.fade {
+    background-color: transparent;
+}
+
+.eventFormTitle {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.eventDescription {
+    color: #20A5E0;
+    cursor: pointer;
+    font-family: Lucida Console;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.eventFormDesc {
+    text-align: justify;
+    font-family: Lucida Console;
+}
+
+#confirmNewAttendee {
+    display: none;
+}
+
+.emptyCell {
+    color: #AAAAAA;
+    font-size: 10px;
+}
